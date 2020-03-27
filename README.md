@@ -3,6 +3,7 @@
 Here are some details about the CV project:
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* For routing we use [React Router](https://github.com/ReactTraining/react-router)
 
 ## Available Scripts
 
