@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 
 export default class Home extends React.Component {
   render() {
@@ -6,6 +7,7 @@ export default class Home extends React.Component {
       <section>
         <h1>Homepage</h1>
         <p>Hello from the Homepage!</p>
+        <ContactForm />
       </section>
     );
   }
