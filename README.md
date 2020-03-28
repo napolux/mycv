@@ -2,13 +2,19 @@
 
 Here are some details about the MyCV project, available on Heroku too: [https://mycv-francesco-napoletano.herokuapp.com/](https://mycv-francesco-napoletano.herokuapp.com/)
 
+#### Credentials for Admin area:
+
+* Username: `admin`
+* Password: `admin`
+
 ### Details about the app:
 
 * Content is retrieved from [Contentful](https://contentful.com)
+* Please consider that while it works with the given credentials, **authentication is not safe**. It's managed at router level for simplicity 
 
 ### Used libraries / frameworks
 
-* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 * For routing we use [React Router](https://github.com/ReactTraining/react-router)
 
 ## Available Scripts
