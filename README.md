@@ -10,7 +10,7 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 ### Details about the app:
 
 * Content is retrieved from [Contentful](https://contentful.com)
-* Please consider that while it works with the given credentials, **authentication is not safe**. It's managed at router level for simplicity 
+* Please consider that while it works with the given credentials and it's able to protect from direct access to the `/admin` page, **authentication is not safe and doesn't persist user session** (if you refresh the browser page you'll need to login again). It's managed at router level for simplicity .
 
 ### Used libraries / frameworks
 
