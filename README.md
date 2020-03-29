@@ -1,4 +1,4 @@
-# MyCV with Contentful
+# MyCV with Contentful [![Build Status](https://travis-ci.org/napolux/mycv.svg?branch=master)](https://travis-ci.org/napolux/mycv)
 
 Here are some details about the MyCV project, available on Heroku too: [https://mycv-francesco-napoletano.herokuapp.com/](https://mycv-francesco-napoletano.herokuapp.com/)
 
@@ -12,6 +12,7 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 * Content is retrieved from [Contentful](https://contentful.com)
 * Email is not sent for real
 * Please consider that while it works with the given credentials and it's able to protect from direct access to the `/admin` page, **authentication is not safe and doesn't persist user session** (if you access the page directly you'll be redirected to the login form). It's managed at router level for simplicity.
+* Tests are run on [Travis CI](https://travis-ci.org/github/napolux/mycv)
 
 ### Used libraries / frameworks
 
