@@ -52,9 +52,9 @@ Array [
       <p>
         Welcome to MyCv. In this page you can find my curriculum vitae and send me an email if you want to hire me!
       </p>
-      <p>
-        Cv is loading...
-      </p>
+      <div
+        className="ui active inline loader"
+      />
     </div>
   </div>,
   <div

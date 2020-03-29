@@ -3,7 +3,7 @@ import ContactForm from '../components/ContactForm';
 import CvField from '../components/CvField';
 import CvPosition from '../components/CvPosition';
 import { IContentfulApiClient, ContentfulAPIClient, ICvFields, ICvPositions } from '../api/contentful'
-import { Container, Header, Segment } from 'semantic-ui-react'
+import { Container, Header, Segment, Loader } from 'semantic-ui-react'
 
 interface IHomeState {
   data: ICvFields
@@ -39,7 +39,7 @@ export default class Home extends React.Component<Props<any>, IHomeState> {
 
     // Printing CV
     if (this.state === null) {
-      cv.push(<p key={'loading'}>Cv is loading...</p>);
+      cv.push(<Loader key="loader" active inline />);
     } else {
       cv.push(<Header as='h2'>Personal data</Header>)
       for (let [k, v] of Object.entries(this.state.data)) {
