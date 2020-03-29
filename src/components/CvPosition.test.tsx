@@ -9,8 +9,8 @@ it('renders correctly', () => {
     company: 'mock company',
     role: 'mock role',
     description: 'string',
-    start: new Date(2018, 11, 12),
-    end: new Date(2018, 11, 12),
+    start: new Date(2018),
+    end: new Date(2018),
   }]
 
   const tree = renderer
