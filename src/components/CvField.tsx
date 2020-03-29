@@ -28,7 +28,7 @@ export default class CvField extends React.Component<ICvFieldProps> {
 
   mapValue(k: any, v: any): string {
     if(k === 'dob') {
-      return new Date(v).toLocaleDateString();
+      return new Date(v).toLocaleDateString('it-IT');
     }
     return v;
   }
