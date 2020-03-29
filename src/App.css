@@ -1,0 +1,16 @@
+.ui.container {
+    margin: 20px 0px;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+h4.ui.header {
+    margin-top: 0;
+    font-style: italic;
+}
+
+h1.ui.header, h2.ui.header, a, a:hover {
+    color:#008080;
+}

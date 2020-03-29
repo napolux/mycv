@@ -1,5 +1,7 @@
 import React from 'react';
 import { ICvPositions } from '../api/contentful';
+import { Divider, Label, Icon, Header, Container } from 'semantic-ui-react'
+
 
 interface ICvPositionProps {
   cvPositionValue: ICvPositions[];
@@ -19,21 +21,19 @@ export default class CvPosition extends React.Component<ICvPositionProps> {
       positions.push(
         <section key={'cvposition_' + i}>
           <div>
-            <h3>{p[i].company}</h3>
-            <h4>{p[i].role}</h4>
-            <p>
-              <strong>From</strong>:
-              <span>
-                {new Date(p[i].start).toLocaleDateString()}
-              </span>
-              <strong>To</strong>:
-              <span>
-                {new Date(p[i].end).toLocaleDateString()}
-              </span>
-            </p>
-            <p>{p[i].description}</p>
+            <Header as='h3'>{p[i].company}</Header>
+            <Header as='h4'>{p[i].role}</Header>
+            <Label>
+              <Icon name='calendar' />From
+              <Label.Detail>{new Date(p[i].start).toLocaleDateString()}</Label.Detail>
+            </Label>         
+            <Label>
+              <Icon name='calendar' />To
+              <Label.Detail>{new Date(p[i].end).toLocaleDateString()}</Label.Detail>
+            </Label>    
+            <Container>{p[i].description}</Container>
           </div>
-          <hr />
+          <Divider />
         </section>
       );
     }

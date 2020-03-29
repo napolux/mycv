@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Menu from './components/Menu';
+import MyCvMenu from './components/Menu';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Page404 from './pages/Page404';
@@ -15,7 +15,7 @@ import {
 export default function App() {
   return (
     <Router>
-        <Menu />
+        <MyCvMenu />
         <Switch>
           <Route path="/login" component={Login} />
           <Route exact path="/" component={Home} />

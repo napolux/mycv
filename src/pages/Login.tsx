@@ -1,5 +1,6 @@
 import React from 'react';
 import { Redirect } from "react-router-dom";
+import { Container, Segment, Header, Form, Button, Message } from 'semantic-ui-react';
 
 interface ILoginFormState {
   authenticated: boolean;
@@ -40,22 +41,31 @@ export default class Login extends React.Component<{}, Partial<ILoginFormState>>
 
     let formError;
     if (this.state.formError === true) {
-      formError = <div>Username o password non corretti</div>
-    }
+      formError = <Message
+        negative
+        header='Error!'
+        content="Please check your username and password."
+      />    }
 
     return (
-      <section>
-        <h1>Login</h1>
+      <Container>
+        <Segment>
+        <Header as="h1">Login</Header>
         <p>Hello from the Login page! Please login with your credentials:</p>
-        <form method="post" onSubmit={this.handleSubmit}>
-          <label htmlFor="username">Username:</label>
-          <input id="username" type="text" name="username" onChange={this.handleChange} />
-          <label htmlFor="password">Password:</label>
-          <input id="password" type="password" name="password" onChange={this.handleChange} />
-          <button type="submit">Login</button>
+        <Form method="post" onSubmit={this.handleSubmit}>
+        <Form.Field>
+              <label htmlFor="username">Username:</label>
+              <input id="username" type="text" name="username" onChange={this.handleChange} />
+            </Form.Field>
+            <Form.Field>
+              <label htmlFor="password">Password:</label>
+              <input id="password" type="password" name="password" onChange={this.handleChange} />
+            </Form.Field>
+            <Button type='submit'>Login</Button>
           {formError}
-        </form>
-      </section>
+        </Form>
+        </Segment>
+      </Container>
     );
   }
 }
