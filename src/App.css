@@ -14,3 +14,7 @@ h4.ui.header {
 h1.ui.header, h2.ui.header, a, a:hover {
     color:#008080;
 }
+
+.container-hidden {
+    display: none !important;
+}

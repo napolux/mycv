@@ -5,6 +5,7 @@ import { Divider, Label, Icon, Header, Container } from 'semantic-ui-react'
 
 interface ICvPositionProps {
   cvPositionValue: ICvPositions[];
+  edit?: boolean
 }
 
 export default class CvPosition extends React.Component<ICvPositionProps> {
