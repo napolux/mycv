@@ -52,7 +52,7 @@ export default class ContactForm extends React.Component<{},Partial<IContactForm
           <input id="email" type="email" name="email" onChange={this.handleChange} />
           <label htmlFor="message">Message:</label>
           <textarea id="message" name="message" onChange={this.handleChange} />
-          <button type="submit">Send message</button>
+          <button type="submit">Hire me!</button>
           {formError}
         </form>
       </section>

@@ -1,5 +1,7 @@
 import React, { Props } from 'react';
 import ContactForm from '../components/ContactForm';
+import CvField from '../components/CvField';
+import CvPosition from '../components/CvPosition';
 import { IContentfulApiClient, ContentfulAPIClient, ICvFields, ICvPositions } from '../api/contentful'
 
 interface IHomeState {
@@ -28,19 +30,30 @@ export default class Home extends React.Component<Props<any>, IHomeState> {
         phone: response.fields.phone,
         positions: positions
       }
-    }, () => {
-      console.log(this.state);
     });
   }
 
   render() {
-
+    let cv = [];
+    
     // Printing CV
-
+    if (this.state === null) {
+      cv.push(<p key={'loading'}>Cv is loading...</p>);
+    } else {
+      for (let [k, v] of Object.entries(this.state.data)) {
+        if(k !== 'positions') {
+          cv.push(<CvField key={'cvf_' + k} cvFieldName={k} cvFieldValue={v} />)
+        } else {
+          cv.push(<CvPosition key={'cvp_' + k} cvPositionValue={v} />);
+        }
+      }
+    }
+    
     return (
       <section>
-        <h1>Homepage</h1>
-        <p>Hello from the Homepage!</p>
+        <h1>Welcome to MyCv!</h1>
+        <p>Welcome to MyCv. In this page you can find my curriculum vitae and send me an email if you want to hire me!</p>
+        {cv}
         <ContactForm />
       </section>
     );
