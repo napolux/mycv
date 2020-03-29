@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section>
+  <div>
+    <h3
+      className="ui header"
+    >
+      mock company
+    </h3>
+    <h4
+      className="ui header"
+    >
+      mock role
+    </h4>
+    <div
+      className="ui label"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="calendar icon"
+        onClick={[Function]}
+      />
+      From
+      <div
+        className="detail"
+      >
+        2018-12-24
+      </div>
+    </div>
+    <div
+      className="ui label"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="calendar icon"
+        onClick={[Function]}
+      />
+      To
+      <div
+        className="detail"
+      >
+        2018-12-24
+      </div>
+    </div>
+    <div
+      className="ui container"
+    >
+      string
+    </div>
+  </div>
+  <div
+    className="ui divider"
+  />
+</section>
+`;

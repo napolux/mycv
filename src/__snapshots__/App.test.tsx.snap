@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui menu"
+    >
+      <div
+        className="header item"
+        onClick={[Function]}
+      >
+        MyCv
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </div>
+      <div
+        className="item"
+        onClick={[Function]}
+      >
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+          Login
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui segment"
+    >
+      <h1
+        className="ui header"
+      >
+        Welcome to MyCv
+      </h1>
+      <p>
+        Welcome to MyCv. In this page you can find my curriculum vitae and send me an email if you want to hire me!
+      </p>
+      <p>
+        Cv is loading...
+      </p>
+    </div>
+  </div>,
+  <div
+    className="ui container"
+  >
+    <div
+      className="ui segment"
+    >
+      <h2
+        className="ui header"
+      >
+        Hire me!
+      </h2>
+      <p>
+        Let's get in touch! Fill the form:
+      </p>
+      <form
+        className="ui form"
+        method="post"
+        onSubmit={[Function]}
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="email"
+          >
+            Email:
+          </label>
+          <input
+            id="email"
+            name="email"
+            onChange={[Function]}
+            type="email"
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <textarea
+            id="message"
+            name="message"
+            onChange={[Function]}
+          />
+        </div>
+        <button
+          className="ui button"
+          onClick={[Function]}
+          type="submit"
+        >
+          Hire me!
+        </button>
+      </form>
+    </div>
+  </div>,
+]
+`;

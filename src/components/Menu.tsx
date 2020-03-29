@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Link
 } from "react-router-dom";
-import { Container, Menu, Segment } from 'semantic-ui-react'
+import { Container, Menu } from 'semantic-ui-react'
 
 export default class MyCvMenu extends React.Component {
   render() {

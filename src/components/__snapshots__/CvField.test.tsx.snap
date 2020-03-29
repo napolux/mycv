@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly the date field 1`] = `
+<section>
+  <div>
+    <p>
+      <strong>
+        Date of birth
+      </strong>
+      : 
+      2012-12-12
+    </p>
+  </div>
+</section>
+`;
+
+exports[`renders correctly the name field 1`] = `
+<section>
+  <div>
+    <p>
+      <strong>
+        Name
+      </strong>
+      : 
+      Mario Rossi
+    </p>
+  </div>
+</section>
+`;

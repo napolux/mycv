@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly inside router 1`] = `
+<div
+  className="ui container"
+>
+  <div
+    className="ui menu"
+  >
+    <div
+      className="header item"
+      onClick={[Function]}
+    >
+      MyCv
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </div>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <a
+        href="/login"
+        onClick={[Function]}
+      >
+        Login
+      </a>
+    </div>
+  </div>
+</div>
+`;
