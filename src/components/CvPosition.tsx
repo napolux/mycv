@@ -25,11 +25,11 @@ export default class CvPosition extends React.Component<ICvPositionProps> {
             <Header as='h4'>{p[i].role}</Header>
             <Label>
               <Icon name='calendar' />From
-              <Label.Detail>{new Date(p[i].start).toLocaleDateString("it-IT")}</Label.Detail>
+              <Label.Detail>{new Date(p[i].start).toLocaleDateString("en-US")}</Label.Detail>
             </Label>         
             <Label>
               <Icon name='calendar' />To
-              <Label.Detail>{new Date(p[i].end).toLocaleDateString("it-IT")}</Label.Detail>
+              <Label.Detail>{new Date(p[i].end).toLocaleDateString("en-US")}</Label.Detail>
             </Label>    
             <Container>{p[i].description}</Container>
           </div>

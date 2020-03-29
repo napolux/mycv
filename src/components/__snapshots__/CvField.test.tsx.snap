@@ -8,7 +8,7 @@ exports[`renders correctly the date field 1`] = `
         Date of birth
       </strong>
       : 
-      2012-12-12
+      12/12/2012
     </p>
   </div>
 </section>
