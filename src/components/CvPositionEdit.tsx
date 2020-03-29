@@ -1,4 +1,4 @@
-import React, { MouseEvent } from 'react';
+import React from 'react';
 import { ICvPositions } from '../api/contentful';
 import { Form, Divider, Container, Modal, Button } from 'semantic-ui-react';
 
