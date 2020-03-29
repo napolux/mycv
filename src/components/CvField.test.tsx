@@ -11,7 +11,7 @@ it('renders correctly the name field', () => {
 
 it('renders correctly the date field', () => {
     const tree = renderer
-      .create(<CvField cvFieldName="dob" cvFieldValue="2018" />)
+      .create(<CvField cvFieldName="dob" cvFieldValue="2012-12-12" />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
