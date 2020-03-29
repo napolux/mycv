@@ -10,7 +10,6 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 ### Details about the app:
 
 * Content is retrieved from [Contentful](https://contentful.com)
-* For UI elements I used [Semantic UI React](https://react.semantic-ui.com) for both its simplicity and it's semantic markup output
 * Email is not sent for real
 * Please consider that while it works with the given credentials and it's able to protect from direct access to the `/admin` page, **authentication is not safe and doesn't persist user session** (if you access the page directly you'll be redirected to the login form). It's managed at router level for simplicity.
 
@@ -18,6 +17,8 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 * For routing we use [React Router](https://github.com/ReactTraining/react-router)
+* For UI elements I used [Semantic UI React](https://react.semantic-ui.com) for both its simplicity and its semantic markup output
+
 
 ## Available Scripts
 
