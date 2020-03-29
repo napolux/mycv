@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<form
+  className="ui form"
+  method="post"
+  onSubmit={[Function]}
+>
+  <div
+    className="ui container"
+  >
+    <div>
+      <form
+        className="ui form"
+        method="post"
+        onSubmit={[Function]}
+      >
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="company"
+          >
+            Company:
+          </label>
+          <input
+            defaultValue="mock company"
+            id="company"
+            name="company"
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="role"
+          >
+            Role:
+          </label>
+          <input
+            defaultValue="mock role"
+            id="role"
+            name="role"
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="start"
+          >
+            Start:
+          </label>
+          <input
+            defaultValue="Mon Dec 24 2018 10:33:30 GMT+0100 (GMT+01:00)"
+            id="start"
+            name="start"
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="end"
+          >
+            End:
+          </label>
+          <input
+            defaultValue="Mon Dec 24 2018 10:33:30 GMT+0100 (GMT+01:00)"
+            id="end"
+            name="end"
+          />
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            htmlFor="description"
+          >
+            Description:
+          </label>
+          <input
+            defaultValue="string"
+            id="description"
+            name="description"
+          />
+        </div>
+        <button
+          className="ui green mini button"
+          onClick={[Function]}
+        >
+          Save
+        </button>
+      </form>
+    </div>
+    <div
+      className="ui divider"
+    />
+  </div>
+</form>
+`;

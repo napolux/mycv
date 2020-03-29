@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly the date field 1`] = `
+<div
+  className="ui container container-show"
+>
+  <form
+    className="ui form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="Date of birth"
+      >
+        Date of birth
+        :
+      </label>
+      <input
+        defaultValue="2012-12-12"
+        id="dob"
+        name="dob"
+      />
+    </div>
+    <button
+      className="ui green mini button"
+      onClick={[Function]}
+    >
+      Save
+    </button>
+    <button
+      className="ui red mini button"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </form>
+</div>
+`;
+
+exports[`renders correctly the name field 1`] = `
+<div
+  className="ui container container-show"
+>
+  <form
+    className="ui form"
+    method="post"
+    onSubmit={[Function]}
+  >
+    <div
+      className="field"
+    >
+      <label
+        htmlFor="Name"
+      >
+        Name
+        :
+      </label>
+      <input
+        defaultValue="Mario Rossi"
+        id="name"
+        name="name"
+      />
+    </div>
+    <button
+      className="ui green mini button"
+      onClick={[Function]}
+    >
+      Save
+    </button>
+    <button
+      className="ui red mini button"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </form>
+</div>
+`;

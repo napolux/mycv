@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly the date field 1`] = `
-<section>
+<div
+  className="ui container"
+>
   <div>
     <p>
       <strong>
@@ -11,11 +13,13 @@ exports[`renders correctly the date field 1`] = `
       12/12/2012
     </p>
   </div>
-</section>
+</div>
 `;
 
 exports[`renders correctly the name field 1`] = `
-<section>
+<div
+  className="ui container"
+>
   <div>
     <p>
       <strong>
@@ -25,5 +29,21 @@ exports[`renders correctly the name field 1`] = `
       Mario Rossi
     </p>
   </div>
-</section>
+</div>
+`;
+
+exports[`renders correctly without edit prop 1`] = `
+<div
+  className="ui container"
+>
+  <div>
+    <p>
+      <strong>
+        Date of birth
+      </strong>
+      : 
+      12/12/2012
+    </p>
+  </div>
+</div>
 `;
