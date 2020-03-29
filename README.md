@@ -11,7 +11,7 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 
 * Content is retrieved from [Contentful](https://contentful.com)
 * Email is not sent for real
-* The admin area doesn't save / delete data from/to contentful but methods `handleDelete()` and `handleSubmit()` are in place
+* The admin area doesn't save/delete data from/to contentful but methods `handleDelete()` and `handleSubmit()` are in place
 * Please consider that while it works with the given credentials and it's able to protect from direct access to the `/admin` page, **authentication is not safe and doesn't persist user session** (if you access the page directly you'll be redirected to the login form). It's managed at router level for simplicity.
 * Tests are run on [Travis CI](https://travis-ci.org/github/napolux/mycv)
 * Tests are [snapshot tests](https://jestjs.io/docs/en/snapshot-testing), with mock data for components 
@@ -19,9 +19,8 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 ### Used libraries / frameworks
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
-* For routing we use [React Router](https://github.com/ReactTraining/react-router)
+* For routing I used [React Router](https://github.com/ReactTraining/react-router)
 * For UI elements I used [Semantic UI React](https://react.semantic-ui.com) for both its simplicity and its semantic markup output
-
 
 ## Available Scripts
 
