@@ -20,7 +20,7 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 * For routing I used [React Router](https://github.com/ReactTraining/react-router)
-* For UI elements I used [Semantic UI React](https://react.semantic-ui.com) for both its simplicity and its semantic markup output
+* For UI elements I used [Semantic UI React](https://react.semantic-ui.com) for both its simplicity and its semantic & responsive markup output
 
 ## Available Scripts
 
