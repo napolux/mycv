@@ -10,10 +10,10 @@ Here are some details about the MyCV project, available on Heroku too: [https://
 ### Details about the app:
 
 * Content is retrieved from [Contentful](https://contentful.com)
-* Email is not sent for real
-* The admin area doesn't save/delete data from/to contentful but methods `handleDelete()` and `handleSubmit()` are in place
-* Please consider that while it works validating the given credentials and it's able to protect from direct access to the `/admin` page, **authentication is not safe and doesn't persist user session** (if you access the page directly you'll be redirected to the login form). It's managed at router level for simplicity
-* Tests are run on [Travis CI](https://travis-ci.org/github/napolux/mycv)
+* Email is not sent for real while **form validation and messaging is in place**
+* The admin area doesn't save/delete data from/to contentful but UI and methods `handleDelete()` and `handleSubmit()` are in place
+* Please consider that while login page works validating the given credentials and it's able to protect from direct access to the `/admin` page, **authentication is not safe and doesn't persist user session** (if you access the page directly you'll be redirected to the login form). It's managed at router level for simplicity and should really not be used in a production environment
+* Tests are run on [Travis CI](https://travis-ci.org/github/napolux/mycv) for every commit/merge on `master` branch
 * Tests are [snapshot tests](https://jestjs.io/docs/en/snapshot-testing), with mock data for components 
 
 ### Used libraries / frameworks
